@@ -1,0 +1,49 @@
+{
+  "description": "Results retained from two completed full certificate executions; timing and machine-specific fields omitted. Packaging did not rerun the complete check.",
+  "shared_mathematical_dependencies": "Both implementations check the same finite-state relaxation and integer capacity/rank argument.",
+  "full_runs": [
+    {
+      "checker_source": "code/independent_rank_check.cpp",
+      "checker_source_sha256": "d5f4c870a47b8e677fec01cc708bd983b3782db53502d2d6754a0c05a292a789",
+      "certificate_sha256": "082c86b92fa216f25c8f4dcb2abf97bfa88c3f98ca93b2de150041e8eb5e4fb0",
+      "exit_code": 0,
+      "result": {
+        "status": "PASS",
+        "formal_metadata": true,
+        "first_step_restricted": false,
+        "certificate_bytes": 133172496,
+        "root_key": 1,
+        "root_rank": 75,
+        "max_rank": 75,
+        "verified_states": 16646562,
+        "terminal_states": 0,
+        "explicitly_enumerated_choices": 1755492299,
+        "individual_capacity_choices": 1694728516,
+        "decreasing_rank_choices": 60763783,
+        "largest_capacity_horizon_used": 70
+      }
+    },
+    {
+      "checker_source": "code/verify_full_rank_portable.cpp",
+      "checker_source_sha256": "808cce0715aeeaf612d09ceb71280d15e19738e98c7ec5a117adadc00e61b212",
+      "certificate_sha256": "082c86b92fa216f25c8f4dcb2abf97bfa88c3f98ca93b2de150041e8eb5e4fb0",
+      "exit_code": 0,
+      "result": {
+        "status": "PASS",
+        "first_step_contains_q11": false,
+        "root_rank": 75,
+        "max_rank": 75,
+        "verified_states": 16646562,
+        "covered_labeled_transition_choices": 1755492299,
+        "uniform_capacity_states": 0,
+        "uniform_capacity_choices": 0,
+        "explicitly_enumerated_choices": 1755492299,
+        "individual_capacity_choices": 1694728516,
+        "decreasing_rank_choices": 60763783,
+        "largest_capacity_horizon_used": 70,
+        "certificate_bytes": 133172496,
+        "lookup_slots": 33554432
+      }
+    }
+  ]
+}

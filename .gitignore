@@ -1,0 +1,7 @@
+/certificates/full_fast50m.bin
+/H75_rank_certificate.bin.gz
+/recheck/
+*.exe
+*.obj
+/independent_rank_check
+/verify_full_rank_portable

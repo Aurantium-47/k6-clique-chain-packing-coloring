@@ -1,0 +1,14 @@
+{
+  "release_asset": "H75_rank_certificate.bin.gz",
+  "compression": "gzip",
+  "compressed_bytes": 49164961,
+  "compressed_sha256": "eb42565bf1c6e3e0e732583c13564886a05416c889c8b00dcedffd9ce6ad94b6",
+  "decompressed_path": "certificates/full_fast50m.bin",
+  "decompressed_bytes": 133172496,
+  "decompressed_sha256": "082c86b92fa216f25c8f4dcb2abf97bfa88c3f98ca93b2de150041e8eb5e4fb0",
+  "record_count": 16646562,
+  "root_key": 1,
+  "root_rank": 75,
+  "unrestricted_first_step": true,
+  "distribution": "Download this named asset from the matching release; decompress into the repository before full verification."
+}

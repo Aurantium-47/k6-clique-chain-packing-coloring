@@ -1,0 +1,34 @@
+{
+  "full_fast50m.bin": {
+    "bytes": 133172496,
+    "sha256": "082c86b92fa216f25c8f4dcb2abf97bfa88c3f98ca93b2de150041e8eb5e4fb0"
+  },
+  "k6_23color_period480_certificate.json": {
+    "bytes": 32810,
+    "sha256": "5e9136a6030a0827179c08d0a6b87efa1ec3606aabb561c429ad99068a337f31"
+  },
+  "H75_graph_and_23color_witness.json": {
+    "bytes": 47850,
+    "sha256": "c8d06eacbe72075409fb72096907226bf6601b61612c297a5ebed6a06c5980cd"
+  },
+  "full_relaxation_rank_search.cpp": {
+    "bytes": 5384,
+    "sha256": "e72731e6fff3ae6283fb1397edce24618d4272980376b7fc40ea7d42f5f4c329"
+  },
+  "verify_full_rank.cpp": {
+    "bytes": 7514,
+    "sha256": "f37aa30e805d71c7ccd0c2bd97a5bec65d6ac9f4085d6e6b79d4ccf078c4921f"
+  },
+  "verify_periodic_certificate.py": {
+    "bytes": 4544,
+    "sha256": "99171d477df5562c4f7925433be1997dc23a8fe15fad3c7d99956ddcce7eed2c"
+  },
+  "verify_rank_sample.py": {
+    "bytes": 4821,
+    "sha256": "f07eef21e3b3cc7e2b529c72a79b3c9a67ccfb9c62338ceb95ca6ccd47bb2806"
+  },
+  "verify_H75.py": {
+    "bytes": 3386,
+    "sha256": "b4e099499174f30eee17d104c460b6c3f0e87c269db4583b94bfab473b8d3aef"
+  }
+}
